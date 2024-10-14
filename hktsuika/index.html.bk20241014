@@ -1,0 +1,227 @@
+<!-- ▼自由編集箇所▼ -->
+<link rel="stylesheet" href="https://lunanaturalbra.com/hk/luna_hk_tsuika1n_1/css/style.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!-- shopline offer css -->
+<style>
+  /* 隱藏第一個商品列表 */
+  div#shopline-section-1691658726756013023f:nth-child(1) {
+    display: none !important;
+  }
+
+  #product-list__products__1691658726756013023f {
+
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .section-width {
+    padding: 0px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #shopline-section-1691658726756013023f .section-width {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* @media (min-width: 768px) {
+    #shopline-section-1691658726756013023f .section-width {
+      width: 640px;
+      padding-top: 1px;
+      padding-bottom: 1px;
+    }
+  } */
+
+  @media screen and (max-width: 767px) {
+    .product-list-custom-padding__1691658726756013023f {
+      padding: 0;
+    }
+
+    #product-list__products__1691658726756013023f {
+      display: block;
+      grid-template-columns: 100%;
+      grid-template-rows: initial;
+    }
+  }
+</style>
+
+<!-- shopline相關css -->
+<style>
+  .header {
+    z-index: 102;
+  }
+
+  .header--desktop .header__container {
+    position: fixed;
+    background-color: white;
+    left: 50%;
+    margin-left: -700px;
+    width: 1400px;
+    max-width: 100%;
+    min-height: 103px;
+    padding: 10px 20px 0;
+    display: flex;
+  }
+
+  @media screen and (max-width: 1400px) {
+    .header--desktop .header__container {
+      left: 0;
+      margin-left: 0;
+      margin: 0 auto;
+    }
+  }
+
+  .header--mobile .header__menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #wrapper {
+    margin-top: 103px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    #wrapper {
+      margin-top: 60px;
+    }
+  }
+
+  /* 隱藏電腦版商品資訊標籤 */
+  .quick-cart-body .variant-gallery-stage>a:last-child {
+    display: none;
+  }
+
+  /* 隱藏手機版商品資訊標籤 */
+  a.ng-binding {
+    display: none;
+  }
+
+  .CustomPage .quick-cart-price {
+    display: none;
+  }
+</style>
+
+<!-- 客製化區塊css -->
+<style>
+  header {
+    top: 1%;
+    left: 0%;
+  }
+
+  @media screen and (max-width: 450px) {
+    header {
+      top: 1%;
+      left: 10%;
+    }
+  }
+
+  .tab-pane {
+    padding: 0px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .tab-pane {
+      padding: 0px;
+    }
+  }
+
+  .nav-pill_new .nav-item {
+    width: calc(100%/8);
+    padding: 1%;
+    margin: 0;
+  }
+
+  .bg_modelCarousel--mid .row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+  }
+
+
+
+  /* 彈跳視窗樣式 */
+  .modal-content {
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 0%);
+  }
+</style>
+
+<body>
+  <div id="wrapper">
+    <div id="container">
+      <div id="contents_standard" class="contents">
+        <!-- selectProductWithProduct -->
+        <!-- ▼自由編集箇所▼ -->
+        <!-- main pc -->
+        <div class="fv">
+          <img src="https://lunanaturalbra.com/hk/luna_hk_tsuika1n_1/img/01_fv.png" alt="">
+
+          <div id="shopline-section-1691658726756013023f" class="shopline-section ">
+            <div class="section-width">
+              <div class="product-list-custom-padding__1691658726756013023f">
+                <div class="product-list__container">
+                  <div class="product-list__product" product-id="6513edb153958f001d042434">
+
+                    <div class="product-item">
+                      <product-item product-id="6513edb153958f001d042434"
+                        ng-class="{'quick-cart-mobile': isMobileTabletWidth()}" class="ng-scope quick-cart-mobile"
+                        modal-window-class="">
+                        <div class="lu-ldg">
+                          <div class="lu-ldgBlock lu-ldgBlock--01 lujs-scrollfade offerbefore">
+                              <img class="btn-add-to-cart js-btn-add-to-cart"
+                                src="https://lunanaturalbra.com/hk/luna_hk_tsuika1n_1/img/02_offer.png" alt="" style="cursor: pointer;">
+                          </div>
+                        </div>
+                      </product-item>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <img src="https://lunanaturalbra.com/hk/luna_hk_tsuika1n_1/img/02_offer.png" alt=""> -->
+          <img src="https://lunanaturalbra.com/hk/luna_hk_tsuika1n_1/img/03_color.png" alt="">
+          <img src="https://lunanaturalbra.com/hk/luna_hk_tsuika1n_1/img/04_size.png" alt="">
+          <img src="https://lunanaturalbra.com/hk/luna_hk_tsuika1n_1/img/05_contact.png" alt="">
+          <div class="sns">
+            <div class="PC">
+              <a href="https://m.me/110099315109767?ref=VmFrzkBiEWXo" target="blank">
+                <img src="https://lunanaturalbra.com/hk/luna_hk_tsuika1n_1/img/fb btn.png" alt="加入好友" style="width:55%;margin:0 auto;">
+              </a>
+            </div>
+            <div class="SP">
+              <a href="https://m.me/110099315109767?ref=VmFrzkBiEWXo" target="blank">
+                <img src="https://lunanaturalbra.com/hk/luna_hk_tsuika1n_1/img/SP_fb btn.png" alt="加入好友" style="width:85%;margin:0 auto;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 抓取網址參數存到cookie -->
+  <!-- <script src="https://cdn.staticfile.org/jquery/3.4.0/jquery.min.js"></script> -->
+  <script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <script>
+    let getUrlString = location.href;
+    let url = new URL(getUrlString);
+    let url_cookie = url.search;
+    $.cookie('url_cookie', url_cookie, { expires: 1, path: '/' });
+  </script>
+
+  <script>
+    // 點選左上角logo不跳轉
+    $('a[href="/"]').click(function (e) {
+      e.preventDefault();
+      return;
+    });
+  </script>
